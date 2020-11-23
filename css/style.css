@@ -76,7 +76,7 @@ main{
 .seccion-abajo-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .iconos{
@@ -91,9 +91,15 @@ main{
 .iconos ul{
     height: 13%;
     border: #c2b2fd solid 1px;
+    background: #c2b2fd;
     border-radius: 20px;
     padding: 0;
     margin-bottom: 2px;
+   
+}
+
+.iconos ul:hover{
+    background-color: violet;
    
 }
 
@@ -189,16 +195,24 @@ h3 {
     color: #410ff8;
 }
 
+#boton-blanco:hover {
+    background-color: violet;
+}
+
 
 .botones{
     background-color: #410ff8;
-    border-radius: 2px;
+    border-radius: 5px;
     color: white;
-    padding: 15px;
+    padding: 8px;
     display: inline-block;
     margin-bottom: 20px;
     text-align: center;
     font-size: 15px;
+}
+
+.botones:hover {
+    background: violet;
 }
 
 .section2 ul{
@@ -213,6 +227,19 @@ h3 {
     color: white;
 }
 
+/* Poner los iconos de advanced blanco */
+.advanced .section2 .seccion-abajo-row .iconos ul{
+    background-color: white;
+}
+
+
+.advanced .section2 .seccion-abajo-row .iconos ul:hover{
+    background-color: violet;
+}
+
+.starter:hover {
+    background-color: blueviolet;
+}
 
 
 
