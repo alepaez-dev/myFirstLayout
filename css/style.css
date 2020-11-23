@@ -72,6 +72,36 @@ h1 {
 main{
     height: 400px;
 }
+
+.seccion-abajo-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    flex-direction: space-around;
+    /* margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px; */
+}
+
+.iconos ul{
+    height: 13%;
+    border: #c2b2fd solid 1px;
+    border-radius: 20px;
+    padding: 0;
+    margin-bottom: 2px;
+   
+}
+
+.listas ul{
+    height: 13%;
+    margin-bottom: 2px;
+ 
+}
 .main .starter {
     border: 1px rgb(216, 206, 206) solid;
     border-radius: 5px;
