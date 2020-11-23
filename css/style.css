@@ -71,7 +71,7 @@ h1 {
 main{
     height: 400px;
 }
-.main div {
+.main .starter {
     border: 1px rgb(216, 206, 206) solid;
     border-radius: 5px;
     padding: 10px;
@@ -80,7 +80,51 @@ main{
     text-align: start;
     font-size: 10px;
     color: black;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    
 }
+
+.main .advanced {
+    border: 1px rgb(216, 206, 206) solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    height: 90%;
+    text-align: start;
+    font-size: 10px;
+    color: black;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .pro {
+    border: 1px rgb(216, 206, 206) solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    height: 90%;
+    text-align: start;
+    font-size: 10px;
+    color: black;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+
 
 h4 {
     color: rgb(133, 125, 125)
@@ -109,25 +153,21 @@ h3 {
     background: #39218d56;
 }
 
-.starter {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-   
-}
+
 .botones{
-    margin: 25px auto auto auto;
     background-color: #410ff8;
     border-radius: 2px;
     color: white;
-    width: 80%;
-    height: 10%;
-    padding: 7px;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
     text-align: center;
-    
-
-  
-    
+    font-size: 15px;
 }
+
+.section2 ul{
+    padding: 5px;
+}
+
+
 
