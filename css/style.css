@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
 
 }
 
@@ -153,6 +154,11 @@ h3 {
     background: #39218d56;
 }
 
+#boton-blanco {
+    background-color: white;
+    color: #410ff8;
+}
+
 
 .botones{
     background-color: #410ff8;
@@ -168,6 +174,15 @@ h3 {
 .section2 ul{
     padding: 5px;
 }
+
+.advanced{
+    background-color: #410ff8;
+}
+
+.advanced div {
+    color: white;
+}
+
 
 
 
