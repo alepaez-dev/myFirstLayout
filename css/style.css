@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     text-decoration: none;
+    font-weight: bold;
 
 }
 
@@ -120,6 +121,13 @@ main{
     justify-content: flex-start;
     display: flex;
     flex-flow: column;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadpw, transform;
+    transition-property: box-shadow, transform;
+    
     
 }
 
@@ -205,14 +213,26 @@ h3 {
     border-radius: 5px;
     color: white;
     padding: 8px;
-    display: inline-block;
+    /* display: inline-block; */
     margin-bottom: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    /* Para cambiar a manita el cursor */
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
 }
 
 .botones:hover {
-    background: violet;
+     background: violet;
+     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1); 
+
 }
 
 .section2 ul{
@@ -239,16 +259,15 @@ h3 {
 
 .starter:hover {
     background-color: blueviolet;
-}
-
-
-.advanced:hover{
-    background-color: rgb(180, 181, 238);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+    /* box-shadow: 10px -10px 2px 10px pink inset; */
     
 }
 
-.advanced div:hover{
-    color:blue;
-}
+
+
+
 
 
