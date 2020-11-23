@@ -75,7 +75,7 @@ main{
 
 .seccion-abajo-row{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: flex-start;
 }
 
@@ -119,7 +119,7 @@ main{
     color: black;
     justify-content: flex-start;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     
 }
 
@@ -154,7 +154,7 @@ main{
 .section2 {
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
     
 }
@@ -241,5 +241,14 @@ h3 {
     background-color: blueviolet;
 }
 
+
+.advanced:hover{
+    background-color: rgb(180, 181, 238);
+    
+}
+
+.advanced div:hover{
+    color:blue;
+}
 
 
